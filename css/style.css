@@ -1,0 +1,148 @@
+.container{
+	width: 100%;
+	height: 100%;
+}
+.container2{
+	width: 50%;
+	height: 50%; 
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+.container3{
+	width: 20%;
+	height: 20%; 
+	position: absolute;
+	top: -20%;
+	right: 13%;
+}
+.container4{
+	width: 20%;
+	height: 20%; 
+	position: absolute;
+	top: 18%;
+	right: 5%;
+}
+.image{
+	width: 90%; 
+	height: 100%; 
+	-webkit-animation: fadein 3s;
+	animation-duration: 5s;
+	position: absolute;
+	left: 80px;
+	top: 0px;
+}
+.image2{
+	width: 90%; 
+	height: 100%; 
+	-webkit-animation: fadein 3s;
+	animation-duration: 5s;
+	position: absolute;
+	left: 80px;
+	top: 0px;
+}
+.image3{
+	width: 90%; 
+	height: 100%; 
+	-webkit-animation: fadein 3s;
+	animation-duration: 20s;
+	position: relative;
+	left: 80px;
+	top: 0px;
+}
+.image4{
+	width: 50%; 
+	height: 712px; 
+	cursor: pointer;
+
+	animation-name: Bona;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	animation-direction: alternate;
+
+	transition-timing-function: ease
+}
+
+.image4:hover {
+	animation-play-state: paused;
+}
+
+.image5{
+	width: 100%;
+	height: 585px; 
+	cursor: pointer;
+
+	animation-name: Bona;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	animation-direction: alternate;
+
+	transition-timing-function: ease
+}
+
+.image5:hover {
+	animation-play-state: paused;
+}
+
+.image6{
+	width: 462px; 
+	height: 753px; 
+	cursor: pointer;
+
+	animation-name: Bonatwo;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	animation-direction: alternate;
+
+	transition-timing-function: ease
+}
+
+.image6:hover {
+	animation-play-state: paused;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes Bona{
+	0% {
+		margin-top: 0%;
+
+	}
+	100% {
+		margin-top: 5%;
+
+	}
+}
+@-webkit-keyframes Bonatwo{
+	0% {
+		margin-top: 4%;
+
+	}
+	100% {
+		margin-top: 0%;
+
+	}
+}
+
+.background{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
